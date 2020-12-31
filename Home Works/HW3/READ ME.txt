@@ -1,0 +1,9 @@
+The program is compatible with python2.
+Make sure the file "Homo_sapiens.GRCh38.cds.all.fa" is in the same folder as the program.
+Program will take some time to read because of a lot of genes in the file.
+
+Since there are lot of genes havind 'N' in the DNA sequence. So, i have skipped those codon includes 'N' in it.
+If you want to print Amino Acid sequence of any gene just write 'print gene[<<any integer>>],AA[<<same integer>>]' at the end of the program.
+If you want to print frequency of amino acid in each gene write 'print AF[<<any integer>>]' at the end of the program.
+Mean and standard deviation of each amino acid across the genes are printed at the end of the program.
+
